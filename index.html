@@ -1,73 +1,107 @@
 <html>
     <head>
-        <link href="style.css" rel="stylesheet"
+        <link href="style.css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/47744da053.js" crossorigin="anonymous"></script>
     </head>
-	<body>
-        <div>
+
+    <script src="script.js"><</script>
+	
+    <body>
+        <script>
+            console.log("test")
+        </script>
+        <div id="top">
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
-            <input type="search" value="°Ë»ö"/>
-        </div>
-        <div id="profile">
-            <img src="image/profile.jpg" width="50px" />
+            <input type="search" value="?ê²€ìƒ‰"/>
             <div>
-                <h2>half_bottle</h2>
-                <button>ÇÁ·ÎÇÊ ÆíÁý</button>
+                <i class="fa-solid fa-anchor"></i>
+                <i class="fa-solid fa-address-card"></i>
+                <i class="fa-brands fa-angular"></i>
+                <i class="fa-solid fa-align-right"></i>
             </div>
         </div>
+        <div id="profile">
+            <div id="profile_pic">
+                <img class="circle_pic" src="image/profile.jpg"/>
+            </div>
+
+            <div id="profile_info">
+                <div id="id">
+                    <span>half_bottle</span>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <button>í”„ë¡œí•„ íŽ¸ì§‘</button>
+            </div>
+            
+        </div>
         <div>
             <p>
-                <strong>¹Ýº´Çö (Byunghyun Ban)</strong>
-                <br/>ÀÛ°¡
+                <strong id="userInfo">ë°˜ë³‘í˜„ (Byunghyun Ban)</strong><br/>
+                <span id="summary">ìž‘ê°€</span>
             </p>
-            <p>
+            <p id="profileDetail">
                 <a href="https://needleworm.github.io">
                     needleworm.github.io
                 </a>
             </p>
         </div>
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
-                <div>
-                    <img src="image/hl 1.jpg" height="35px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/hl 1.jpg"/>
                 </div>
                 <div>
                     ?
                 </div>
             </div>
             <div class="highlight">
-                <div>
-                    <img src="image/hl 2.jpg" height="35px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/hl 2.jpg"/>
                 </div>
                 <div>
                     ?
                 </div>
+                <div></div>
             </div>
         </div>
-        <div>
-            <div>
-                °Ô½Ã¹°<br/>
+        <div id="stat_bar">
+            <div class="stat">
+                ê²Œì‹œë¬¼<br/>
                 133
             </div>
-            <div>
-                ÆÈ·Î¿ö<br/>
+            <div class="stat">
+                íŒ”ë¡œì›Œ<br/>
                 408
             </div>
-            <div>
-                ÆÈ·Î¿ì<br/>
+            <div class="stat">
+                íŒ”ë¡œìš°<br/>
                 189
             </div>
         </div>
-        <div>¾ÆÀÌÄÜÀÌ µé¾î°¥ ÀÚ¸®</div>
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fa-solid fa-table-cells-large"></i></div>
+                <div><i class="fa-solid fa-film"></i></div>
+                <div><i class="fa-regular fa-circle-play"></i></div>
+                <div><i class="fa-regular fa-bookmark"></i></div>
+                <div><i class="fa-solid fa-user-tag"></i></div>
+        </div>
         <div>
-            <img src="image/thumbnails/1.jpg" width="32%"/>
-            <img src="image/thumbnails/2.jpg" width="32%"/>
-            <img src="image/thumbnails/3.jpg" width="32%"/>
-            <img src="image/thumbnails/4.jpg" width="32%"/>
-            <img src="image/thumbnails/5.jpg" width="32%"/>
-            <img src="image/thumbnails/6.jpg" width="32%"/>
-            <img src="image/thumbnails/7.jpg" width="32%"/>
-            <img src="image/thumbnails/8.jpg" width="32%"/>
-            <img src="image/thumbnails/9.jpg" width="32%"/>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/1.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/2.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/3.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/4.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/5.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/6.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/7.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/8.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/9.jpg" class="thumbnail"/>
+            </div>
         </div>
     </body>
 </html>
